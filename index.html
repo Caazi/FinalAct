@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+</head>
+<body>
+    <script>
+        const person = {
+            fname:"Isaac Justine",
+            lname:"Mendez",
+            age:21,
+            occupation:"Student",
+            address:{
+                city:"Legazpi",
+                state:"Albay",
+                country:"Philippines",
+            },
+            greet:function(){console.log(this.fname + ' ' + this.lname + ' ' + this.age + ' ' + this.address.city + ' ' + this.address.state + ' ' + this.address.country);}
+        }
+        person.greet()
+    </script>
+</body>
+</html>
